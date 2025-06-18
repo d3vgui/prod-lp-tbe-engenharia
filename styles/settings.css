@@ -1,5 +1,7 @@
 :root {
   --first-color: #003da6;
+  --second-color: #003052;
+  --bg: #e8e8e8;
   --white: #ffffff;
   --black: #000000;
   --primary-font: Montserrat, "sans-serif";
@@ -101,7 +103,7 @@ html {
 /* HEADER */
 
 header {
-  background-color: var(--white);
+  background-color: var(--bg);
   padding: 20px 50px;
   display: flex;
   align-items: center;
@@ -121,12 +123,12 @@ header.scrolled {
 }
 
 header img {
-  height: 65px;
+  height: 45px;
   transition: 0.4s;
 }
 
 header img:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 ul {
@@ -188,7 +190,7 @@ ul {
     display: block;
     position: absolute;
     width: 100%;
-    top: 95px;
+    top: 88px;
     right: 0px;
     background: var(--white);
     transition: 0.6s;
@@ -259,6 +261,12 @@ ul {
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+}
+
+@media (max-width: 450px){
+  header{
+    padding: 20px 30px;
   }
 }
 
@@ -383,10 +391,16 @@ footer .dev i {
   }
 
   footer .logo-footer img{
-    width: 120px;
+    width: 200px;
   }
 
   footer li {
     width: 85vw;
   }
+}
+
+@media (max-width: 399px){
+  footer {
+    padding: 30px 0;
+}
 }

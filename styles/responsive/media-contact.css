@@ -1,0 +1,55 @@
+@media (max-width: 991px) {
+  #section-one .right-content {
+    margin-top: 40px;
+  }
+
+  #section-one .left-content form {
+    padding: 20px;
+  }
+
+  /* SECTION TWO */
+
+  #section-two .left-content form {
+    padding: 20px;
+  }
+
+  #section-two .right-content {
+    margin-top: 40px;
+    height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner {
+    height: 90px;
+  }
+
+  /* SECTION ONE */
+
+  #section-one {
+    padding-top: 90px;
+    padding-bottom: 80px;
+  }
+
+  #section-one .left-content form {
+    width: 90vw;
+  }
+
+  #section-one .right-content .btn-know-more a {
+    padding: 10px 15px;
+  }
+
+  /* SECTION TWO */
+
+  #section-two {
+    padding: 60px 0;
+  }
+
+  #section-two .left-content form {
+    width: 90vw;
+  }
+
+  #section-two .right-content .btn-home a {
+    padding: 10px 15px;
+  }
+}

@@ -1,0 +1,457 @@
+.banner {
+  height: 130px;
+  background-image: url(/images/img-banner.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000ae;
+  background-blend-mode: color;
+  display: flex;
+  align-items: center;
+  margin-top: 88px;
+}
+
+.banner .title {
+  color: var(--white);
+  border-left: 4px solid var(--first-color);
+  padding-left: 15px;
+}
+
+/* SECTION ONE */
+
+#section-one {
+  padding-top: 100px;
+  padding-bottom: 250px;
+  display: flex;
+}
+
+#section-one .content-sec-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+#section-one .left-content .title {
+  border-left: 4px solid var(--first-color);
+  padding-left: 15px;
+}
+
+#section-one .left-content p {
+  margin-top: 20px;
+}
+
+#section-one .btn-know-more {
+  margin-top: 40px;
+}
+
+#section-one .btn-know-more a {
+  padding: 15px 20px;
+  background-color: var(--first-color);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 550;
+  transition: 0.4s ease;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+#section-one .btn-know-more a:hover {
+  background-color: var(--white);
+  color: var(--first-color);
+  border-color: var(--first-color);
+}
+
+#section-one .btn-know-more i {
+  margin-left: 10px;
+}
+
+/* #section-one .right-content img{
+  
+} */
+
+/* SECTION TWO */
+
+#section-two {
+  background-color: var(--bg);
+}
+
+#section-two .box-info {
+  height: 100%;
+  padding: 25px 50px;
+  background-color: var(--second-color);
+  transform: translateY(-70px);
+  border-radius: 5px;
+  text-align: center;
+  color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* VISÃO */
+
+#section-two .vision {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+#section-two .vision .btn-team {
+  margin-top: 35px;
+}
+
+#section-two .vision .btn-team a {
+  padding: 15px 25px;
+  color: var(--white);
+  background-color: var(--first-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 550;
+  transition: 0.4s ease;
+  border: 2px solid transparent;
+}
+
+#section-two .vision .btn-team a:hover {
+  background-color: var(--white);
+  color: var(--first-color);
+  border-color: var(--first-color);
+}
+
+#section-two .vision .btn-team i {
+  margin-left: 10px;
+}
+
+#section-two .vision .accordion {
+  margin: 0 auto;
+}
+
+#section-two .vision .accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#section-two .vision .accordion-header {
+  width: 100%;
+  background: #ececec;
+  border: none;
+  padding: 15px 20px;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: var(--title-font);
+  color: #000000;
+}
+
+#section-two .vision .accordion-header:hover,
+.accordion-item.active .accordion-header {
+  background-color: var(--first-color);
+  color: var(--white);
+}
+
+#section-two .vision .accordion-header .icon {
+  transition: transform 0.3s;
+}
+
+#section-two .vision .accordion-item.active .icon {
+  transform: rotate(90deg);
+}
+
+#section-two .vision .accordion-content {
+  height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  background: #f1f1f1;
+  transition: height 0.3s ease, padding 0.3s ease;
+}
+
+#section-two .vision .accordion-content p {
+  margin-bottom: 25px;
+  font-family: var(--text-font);
+}
+
+#section-two .vision .accordion-item.active .accordion-content {
+  padding: 15px 20px;
+}
+
+/* MISSÃO */
+
+#section-two .mission {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+#section-two .mission .btn-team {
+  margin-top: 35px;
+}
+
+#section-two .mission .btn-team a {
+  padding: 15px 25px;
+  color: var(--white);
+  background-color: var(--first-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 550;
+  transition: 0.4s ease;
+  border: 2px solid transparent;
+}
+
+#section-two .mission .btn-team a:hover {
+  background-color: var(--white);
+  color: var(--first-color);
+  border-color: var(--first-color);
+}
+
+#section-two .mission .btn-team i {
+  margin-left: 10px;
+}
+
+#section-two .mission .accordion {
+  margin: 0 auto;
+}
+
+#section-two .mission .accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#section-two .mission .accordion-header {
+  width: 100%;
+  background: #ececec;
+  border: none;
+  padding: 15px 20px;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: var(--title-font);
+  color: #000000;
+}
+
+#section-two .mission .accordion-header:hover,
+.accordion-item.active .accordion-header {
+  background-color: var(--first-color);
+  color: var(--white);
+}
+
+#section-two .mission .accordion-header .icon {
+  transition: transform 0.3s;
+}
+
+#section-two .mission .accordion-item.active .icon {
+  transform: rotate(90deg);
+}
+
+#section-two .mission .accordion-content {
+  height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  background: #f1f1f1;
+  transition: height 0.3s ease, padding 0.3s ease;
+}
+
+#section-two .mission .accordion-content p {
+  margin-bottom: 25px;
+  font-family: var(--text-font);
+}
+
+#section-two .mission .accordion-item.active .accordion-content {
+  padding: 15px 20px;
+}
+
+/* VALORES */
+
+#section-two .values {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+#section-two .values .left-content ul {
+  padding: 0;
+  margin-top: 30px;
+}
+
+#section-two .values .left-content li {
+  list-style-type: none;
+}
+
+#section-two .values .left-content ul i {
+  margin-right: 10px;
+  color: var(--first-color);
+  font-size: 20px;
+}
+
+#section-two .values .btn-team {
+  margin-top: 35px;
+}
+
+#section-two .values .btn-team a {
+  padding: 15px 25px;
+  color: var(--white);
+  background-color: var(--first-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 550;
+  transition: 0.4s ease;
+  border: 2px solid transparent;
+}
+
+#section-two .values .btn-team i {
+  margin-left: 10px;
+}
+
+#section-two .values .btn-team a:hover {
+  background-color: var(--white);
+  color: var(--first-color);
+  border-color: var(--first-color);
+}
+
+#section-two .values .accordion {
+  margin: 0 auto;
+}
+
+#section-two .values .accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#section-two .values .accordion-header {
+  width: 100%;
+  background: #ececec;
+  border: none;
+  padding: 15px 20px;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: var(--title-font);
+  color: #000000;
+}
+
+#section-two .values .accordion-header:hover,
+.accordion-item.active .accordion-header {
+  background-color: var(--first-color);
+  color: var(--white);
+}
+
+#section-two .values .accordion-header .icon {
+  transition: transform 0.3s;
+}
+
+#section-two .values .accordion-item.active .icon {
+  transform: rotate(90deg);
+}
+
+#section-two .values .accordion-content {
+  height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  background: #f1f1f1;
+  transition: height 0.3s ease, padding 0.3s ease;
+}
+
+#section-two .values .accordion-content p {
+  margin-bottom: 25px;
+  font-family: var(--text-font);
+}
+
+#section-two .values .accordion-item.active .accordion-content {
+  padding: 15px 20px;
+}
+
+/* SECTION THREE */
+
+#section-three {
+  padding: 100px 0;
+}
+
+#section-three .content-sec-three {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#section-three .left-content img {
+  height: auto;
+}
+
+#section-three .right-content p {
+  margin-top: 15px;
+}
+
+#section-three .btn-portfolio {
+  margin-top: 30px;
+}
+
+#section-three .btn-portfolio a {
+  padding: 15px 25px;
+  color: var(--white);
+  background-color: var(--first-color);
+  text-decoration: none;
+  font-weight: 550;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+
+#section-three .btn-portfolio a:hover {
+  margin-left: 15px;
+}
+
+#section-three .btn-portfolio i {
+  margin-left: 10px;
+}
+
+/* SECTION FOUR */
+
+#section-four {
+  padding: 100px 0;
+  background-color: var(--bg);
+}
+
+#section-four .content-sec-four {
+  margin-top: 30px;
+}
+
+#section-four .btn-contact-us {
+  margin-top: 40px;
+}
+
+#section-four .btn-contact-us a {
+  padding: 15px 25px;
+  color: var(--white);
+  background-color: var(--first-color);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.4s ease;
+  font-weight: 550;
+}
+
+#section-four .btn-contact-us a:hover {
+  margin-left: 15px;
+}
+
+#section-four .btn-contact-us i {
+  margin-left: 10px;
+}
