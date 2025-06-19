@@ -10,10 +10,10 @@ function toggleMenu(event) {
   
   if (active) {
     event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
-    header.style.backgroundColor = 'var(--white)';
+    header.style.backgroundColor = 'var(--bg)';
   } else {
     event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
-    header.style.backgroundColor = 'var(--white)';
+    header.style.backgroundColor = 'var(--bg)';
   }
 }
 
