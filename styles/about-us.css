@@ -123,62 +123,23 @@
   margin-left: 10px;
 }
 
-#section-two .vision .accordion {
-  margin: 0 auto;
+#section-two .vision ul{
+  padding: 0;
 }
 
-#section-two .vision .accordion-item {
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
+#section-two .vision li{
+  list-style: none;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #a1a1a1;
   border-radius: 5px;
-  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-#section-two .vision .accordion-header {
-  width: 100%;
-  background: #ececec;
-  border: none;
-  padding: 15px 20px;
-  text-align: left;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  transition: background 0.3s;
-  font-family: var(--title-font);
-  color: #000000;
-}
-
-#section-two .vision .accordion-header:hover,
-.accordion-item.active .accordion-header {
-  background-color: var(--first-color);
-  color: var(--white);
-}
-
-#section-two .vision .accordion-header .icon {
-  transition: transform 0.3s;
-}
-
-#section-two .vision .accordion-item.active .icon {
-  transform: rotate(90deg);
-}
-
-#section-two .vision .accordion-content {
-  height: 0;
-  overflow: hidden;
-  padding: 0 20px;
-  background: #f1f1f1;
-  transition: height 0.3s ease, padding 0.3s ease;
-}
-
-#section-two .vision .accordion-content p {
-  margin-bottom: 25px;
-  font-family: var(--text-font);
-}
-
-#section-two .vision .accordion-item.active .accordion-content {
-  padding: 15px 20px;
+#section-two .vision .right-contenti{
+  margin-right: 10px;
+  color: var(--first-color);
 }
 
 /* MISSÃO */
@@ -215,62 +176,23 @@
   margin-left: 10px;
 }
 
-#section-two .mission .accordion {
-  margin: 0 auto;
+#section-two .mission ul{
+  padding: 0;
 }
 
-#section-two .mission .accordion-item {
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
+#section-two .mission li{
+  list-style: none;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #a1a1a1;
   border-radius: 5px;
-  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-#section-two .mission .accordion-header {
-  width: 100%;
-  background: #ececec;
-  border: none;
-  padding: 15px 20px;
-  text-align: left;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  transition: background 0.3s;
-  font-family: var(--title-font);
-  color: #000000;
-}
-
-#section-two .mission .accordion-header:hover,
-.accordion-item.active .accordion-header {
-  background-color: var(--first-color);
-  color: var(--white);
-}
-
-#section-two .mission .accordion-header .icon {
-  transition: transform 0.3s;
-}
-
-#section-two .mission .accordion-item.active .icon {
-  transform: rotate(90deg);
-}
-
-#section-two .mission .accordion-content {
-  height: 0;
-  overflow: hidden;
-  padding: 0 20px;
-  background: #f1f1f1;
-  transition: height 0.3s ease, padding 0.3s ease;
-}
-
-#section-two .mission .accordion-content p {
-  margin-bottom: 25px;
-  font-family: var(--text-font);
-}
-
-#section-two .mission .accordion-item.active .accordion-content {
-  padding: 15px 20px;
+#section-two .mission .left-content i{
+  margin-right: 10px;
+  color: var(--first-color);
 }
 
 /* VALORES */
@@ -322,62 +244,23 @@
   border-color: var(--first-color);
 }
 
-#section-two .values .accordion {
-  margin: 0 auto;
+#section-two .values .right-content ul{
+  padding: 0;
 }
 
-#section-two .values .accordion-item {
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
+#section-two .values .right-content li{
+  list-style: none;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #a1a1a1;
   border-radius: 5px;
-  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-#section-two .values .accordion-header {
-  width: 100%;
-  background: #ececec;
-  border: none;
-  padding: 15px 20px;
-  text-align: left;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  transition: background 0.3s;
-  font-family: var(--title-font);
-  color: #000000;
-}
-
-#section-two .values .accordion-header:hover,
-.accordion-item.active .accordion-header {
-  background-color: var(--first-color);
-  color: var(--white);
-}
-
-#section-two .values .accordion-header .icon {
-  transition: transform 0.3s;
-}
-
-#section-two .values .accordion-item.active .icon {
-  transform: rotate(90deg);
-}
-
-#section-two .values .accordion-content {
-  height: 0;
-  overflow: hidden;
-  padding: 0 20px;
-  background: #f1f1f1;
-  transition: height 0.3s ease, padding 0.3s ease;
-}
-
-#section-two .values .accordion-content p {
-  margin-bottom: 25px;
-  font-family: var(--text-font);
-}
-
-#section-two .values .accordion-item.active .accordion-content {
-  padding: 15px 20px;
+#section-two .values .right-content i{
+  margin-right: 10px;
+  color: var(--first-color);
 }
 
 /* SECTION THREE */
