@@ -154,7 +154,7 @@
   height: 100%;
   background-color: #dfdfdf;
   width: 340px;
-  padding: 20px;
+  padding: 25px;
   border: none;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
@@ -166,24 +166,44 @@
   transform: translate(10px, -10px);
 }
 
-#section-three .card .title {
-  height: 80px;
+#section-three .icon{
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+#section-three .icon i{
+  color: var(--first-color);
+  font-size: 30px;
+}
+
+#section-three .card .title {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
 #section-three .card .title h3 {
   margin: 0;
+  font-size: 24px;
 }
 
 #section-three .card .text {
-  height: 170px;
+  height: 190px;
+  display: flex;
+  align-items: center;
   margin-top: 10px;
 }
 
+#section-three .card .text p{
+  margin: 0;
+}
+
 #section-three .card .btn-know-more {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
