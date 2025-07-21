@@ -626,11 +626,17 @@
 
 #section-seven .left-content ul{
   padding: 0;
+  margin-top: 20px;
 }
 
 #section-seven .left-content ul li{
   margin-top: 10px;
   list-style-type: none;
+}
+
+#section-seven .left-content ul li a{
+  color: var(--black);
+  text-decoration: none;
 }
 
 #section-seven .left-content ul li i{
