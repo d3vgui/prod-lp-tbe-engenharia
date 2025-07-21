@@ -74,6 +74,23 @@
   #section-six {
     padding: 40px 0;
   }
+
+  /* SECTION SEVEN */
+
+  #section-seven{
+    padding: 40px 0;
+  }
+
+  #section-seven .right-content{
+    margin-top: 45px;
+  }
+
+  /* SECTION EIGHT */
+
+  #section-eight{
+    padding: 40px 0;
+  }
+  
 }
 
 @media (max-width: 735px) {

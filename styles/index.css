@@ -606,25 +606,114 @@
 
 /* SECTION SEVEN */
 
-#section-seven {
+#section-seven{
+  padding: 80px 0;
+}
+
+#section-seven .content-sec-seven{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#section-seven .left-content .title-sec{
+  border-left: 4px solid var(--black);
+  padding-left: 15px;
+}
+
+#section-seven .left-content p{
+  margin-top: 20px;
+}
+
+#section-seven .left-content ul{
+  padding: 0;
+}
+
+#section-seven .left-content ul li{
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+#section-seven .left-content ul li i{
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+#section-seven .right-content form {
+  margin-top: 40px;
+  background-color: #dfdfdf;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#section-seven .right-content label{
+  margin-top: 10px;
+}
+
+#section-seven .right-content input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #797979;
+  border-radius: 5px;
+}
+
+#section-seven .right-content form span {
+  color: red;
+}
+
+#section-seven .right-content select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  color: var(--black);
+}
+
+#section-seven .right-content textarea {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #797979;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#section-seven .right-content form button {
+  padding: 10px 20px;
+  background-color: var(--first-color);
+  color: var(--white);
+  font-weight: 550;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.4s ease;
+}
+
+#section-seven .right-content form button:hover {
+  transform: scale(0.9);
+}
+
+/* SECTION EIGHT */
+
+#section-eight {
   padding: 80px 0;
   background-color: var(--white);
 }
 
-#section-seven .title {
+#section-eight .title {
   border-left: 4px solid var(--first-color);
   padding-left: 15px;
 }
 
-#section-seven .content-sec-seven {
+#section-eight .content-sec-eight {
   margin-top: 30px;
 }
 
-#section-seven .btn-contact-us {
+#section-eight .btn-contact-us {
   margin-top: 40px;
 }
 
-#section-seven .btn-contact-us a {
+#section-eight .btn-contact-us a {
   padding: 15px 25px;
   color: var(--white);
   background-color: var(--first-color);
@@ -634,10 +723,10 @@
   font-weight: 550;
 }
 
-#section-seven .btn-contact-us a:hover {
+#section-eight .btn-contact-us a:hover {
   margin-left: 15px;
 }
 
-#section-seven .btn-contact-us i {
+#section-eight .btn-contact-us i {
   margin-left: 10px;
 }
