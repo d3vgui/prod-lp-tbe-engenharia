@@ -133,3 +133,20 @@
     height: 380px;
   }
 }
+
+@media (max-width: 425px){
+    #section-four .swiper-slide img {
+    width: 320px;
+    height: 320px;
+  }
+
+  #section-five .swiper-slide img {
+    width: 320px;
+    height: 320px;
+  }
+
+  #section-six .swiper-slide img {
+    width: 320px;
+    height: 320px;
+  }
+}
