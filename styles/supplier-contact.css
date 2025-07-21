@@ -1,0 +1,103 @@
+/* SECTION ONE */
+
+#section-one {
+  padding: 100px 0;
+}
+
+#section-one .content-sec-one {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+}
+
+#section-one .title {
+  border-left: 4px solid var(--first-color);
+  padding-left: 15px;
+}
+
+#section-one .title h2 {
+  margin: 0;
+}
+
+#section-one .left-content form {
+  margin-top: 40px;
+  background-color: #e7e7e7;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#section-one .left-content label{
+  margin-top: 10px;
+}
+
+#section-one .left-content input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #797979;
+  border-radius: 5px;
+}
+
+#section-one .left-content form span {
+  color: red;
+}
+
+#section-one .left-content textarea {
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #797979;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#section-one .left-content form button {
+  padding: 10px 20px;
+  background-color: var(--first-color);
+  color: var(--white);
+  font-weight: 550;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.4s ease;
+}
+
+#section-one .left-content form button:hover {
+  transform: scale(0.9);
+}
+
+#section-one .box h3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+#section-one .box p {
+  font-size: 20px;
+}
+
+#section-one .box ul {
+  padding: 0;
+}
+
+#section-one .box li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+#section-one .box li i {
+  margin-right: 10px;
+  color: var(--first-color);
+}
+
+#section-one .box li a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+#section-one .box iframe{
+    margin-top: 20px;
+    border: 2px solid #a1a1a1;
+    border-radius: 15px;
+}

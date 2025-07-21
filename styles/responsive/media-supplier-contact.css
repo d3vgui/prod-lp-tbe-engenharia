@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+  #section-one .right-content {
+    margin-top: 40px;
+  }
+
+  #section-one .left-content form {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  /* SECTION ONE */
+
+  #section-one {
+    padding-top: 90px;
+    padding-bottom: 80px;
+  }
+
+  #section-one .left-content form {
+    width: 90vw;
+  }
+}
