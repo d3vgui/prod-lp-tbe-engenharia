@@ -1,4 +1,18 @@
 @media (max-width: 991px) {
+
+    /* TOP HEADER */
+
+  .top-header {
+    display: none;
+  }
+
+  /* HEADER */
+
+  header {
+    top: 0px;
+  }
+
+
   #section-one .right-content {
     margin-top: 40px;
   }

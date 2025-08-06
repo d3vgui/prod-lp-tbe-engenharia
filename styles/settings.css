@@ -51,6 +51,55 @@ html {
   background-color: #efedec;
 }
 
+/* TOP HEADER */
+
+.top-header {
+  padding: 10px 50px;
+  width: 100%;
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 21;
+}
+
+.top-header a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.top-header .top-header-contact ul {
+  display: flex;
+  gap: 15px;
+}
+
+.top-header .top-header-contact i {
+  margin-right: 10px;
+}
+
+.top-header .social-top-header ul {
+  display: flex;
+  gap: 15px;
+}
+
+.top-header .social-top-header i {
+  color: var(--black);
+}
+
+.top-header .social-top-header a {
+  padding: 3px 8px;
+  background-color: var(--bg);
+  border-radius: 5px;
+}
+
+.top-header li {
+  list-style: none;
+}
+
 /* HEADER */
 
 header {
@@ -60,7 +109,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  top: 0px;
+  top: 44px;
   left: 0;
   right: 0;
   z-index: 20;
