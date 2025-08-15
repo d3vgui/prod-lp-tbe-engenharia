@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+  /* TOP HEADER */
+
+  .top-header {
+    display: none;
+  }
+
+  /* HEADER */
+
+  header {
+    top: 0px;
+  }
+
+  #section-two {
+    padding: 40px 0;
+  }
+
+  #section-two .content-sec-two {
+    flex-direction: column-reverse;
+  }
+
+  #section-two .left-content {
+    margin-top: 45px;
+  }
+}

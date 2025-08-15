@@ -1,0 +1,62 @@
+#section-one{
+    padding-top: 180px;
+    padding-bottom: 20px;
+}
+
+#section-one .content-sec-one{
+    margin-top: 40px;
+}
+
+#section-one .btn-site{
+    margin-top: 30px;
+}
+
+#section-one .btn-site a{
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: var(--black);
+    font-weight: 550;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#section-one .btn-site i{
+    margin-right: 10px;
+}
+
+/* SECTION TWO */
+
+#section-two{
+    padding: 80px 0;
+}
+
+#section-two .title-sec h2{
+    font-size: 35px;
+}
+
+#section-two .content-sec-two{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section-two .left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#section-two .right-content{
+    height: 100%;
+}
+
+#section-two .right-content .text{
+    position: sticky;
+    top: 160px;
+}
+
+#section-two .right-content p{
+    font-weight: bold;
+    margin: 10px 0;
+}
