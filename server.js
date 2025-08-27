@@ -46,7 +46,7 @@ app.post("/send-contact", async (req, res) => {
         <p><b>Localização:</b> ${localizacao}</p>
         <p><b>Mensagem:</b> ${mensagem}</p>
       `,
-    });
+    }); 
 
     res.json({ success: true, message: "E-mail enviado com sucesso!" });
   } catch (error) {
