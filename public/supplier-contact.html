@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=""> <!-- MANTER ENTRE 130 A 150 CARACTERES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="/styles/settings.css">
+    <link rel="stylesheet" href="/styles/supplier-contact.css">
+    <link rel="stylesheet" href="/styles/responsive/media-supplier-contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="/js/header.js" defer></script>
+    <script src="/js/menu.js" defer></script>
+    <script src="/js/hash.js" defer></script>
+    <script src="/js/contact-form.js" defer></script>
+    <title>TBE Engenharia e Arquitetura</title>
+</head>
+
+<body>
+    <div class="top-header">
+        <div class="top-header-contact">
+            <ul>
+                <li>
+                    <a href="https://maps.app.goo.gl/56pTdb6WK2bfZAtE9" title="LOCALIZAÇÃO" target="_blank">
+                        <i class="fa-solid fa-location-dot"></i>
+                        R. do Paraíso, 595 - Paraíso, São Paulo - SP
+                    </a>
+                </li>
+                <li><a href="tel:11955548865"><i class="fa-brands fa-whatsapp"></i>(11) 95554-8865</a></li>
+                <li><a href="mailto:contato@engenhariated.com"><i
+                            class="fa-solid fa-envelope"></i>contato@engenhariated.com</a></li>
+            </ul>
+        </div>
+        <div class="social-top-header">
+            <ul>
+                <li><a title="Clique aqui para entrar em contato via WhatsApp"
+                        href="https://wa.me/5511955548865?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es."><i
+                            class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a title="Clique aqui para acessar o Instagram"
+                        href="https://www.instagram.com/ted_engenharia.arquitetura/?igsh=dnYwdWs3aHlzY2Vw#"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <a id="logo" title="Logo" href="index.html"><img class="img-responsive" loading="lazy" title="Logo"
+                src="./images/logo-1.webp" alt="Logo"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu">
+                <li>
+                    <a class="header-line" title="Clique aqui para ser direcionado a página INÍCIO"
+                        href="index.html">INÍCIO</a>
+                </li>
+                <li>
+                    <a class="header-line" title="Clique aqui para ser direcionado a página QUEM SOMOS"
+                        href="index.html">QUEM
+                        SOMOS</a>
+                </li>
+                <li>
+                    <a class="header-line" title="Clique aqui para ser direcionado a página AREAS DE ATUAÇÃO"
+                        href="index.html">AREAS DE ATUAÇÃO</a>
+                </li>
+                <li>
+                    <a class="header-line" title="Clique aqui para ser direcionado a página SOU FORNECEDOR"
+                        href="supplier-contact.html">SOU FORNECEDOR</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="container">
+                <div class="title">
+                    <h2>SOU FORNECEDOR</h2>
+                </div>
+            </div>
+        </div>
+        <section id="section-one">
+            <div class="container">
+                <div class="content-sec-one">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="left-content">
+                            <div class="title">
+                                <span>FORNECEDORES E PARCERIA</span>
+                                <h2>PREENCHA O FORMULÁRIO</h2>
+                            </div>
+                            <form id="formEmpresa">
+                                <label for="nome-empresa">Nome da Empresa/Profissional: <span>*</span></label>
+                                <input type="text" id="nome-empresa" name="nomeEmpresa" required>
+
+                                <label for="cpf-cnpj">CNPJ ou CPF: <span>*</span></label>
+                                <input type="text" id="cpf-cnpj" name="cpfCnpj" required>
+
+                                <label for="responsavel">Responsável pelo contato: <span>*</span></label>
+                                <input type="text" id="responsavel" name="responsavel" required>
+
+                                <label for="telefone">Telefone/WhatsApp: <span>*</span></label>
+                                <input type="tel" id="telefone" name="telefone" required>
+
+                                <label for="email">E-mail: <span>*</span></label>
+                                <input type="email" id="email" name="email" required>
+
+                                <label for="cidade-estado">Cidade e Estado: <span>*</span></label>
+                                <input type="text" id="cidade-estado" name="cidadeEstado" required>
+
+                                <label for="segmento">Segmento de Atuação: <span>*</span></label>
+                                <input type="text" id="segmento" name="segmento" required>
+
+                                <label for="descricao">Descrição de produtos e/ou serviços: <span>*</span></label>
+                                <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+                                <label for="portfolio">Portfólio, site ou redes sociais: <span>*</span></label>
+                                <textarea id="portfolio" name="portfolio" rows="3"></textarea>
+
+                                <button type="submit">ENVIAR <i class="fa-solid fa-share"></i></button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <div class="right-content">
+                            <div class="box">
+                                <h3>TELEFONE</h3>
+                                <ul>
+                                    <li>
+                                        <a title="Clique aqui para fazer uma ligação" href="tel:11955548865"><i
+                                                class="fa-solid fa-phone"></i>
+                                            (11) 95554-8865</a>
+                                    </li>
+                                </ul>
+                                <h3>WHATSAPP</h3>
+                                <ul>
+                                    <li>
+                                        <a title="Clique aqui para entrar em contato via WhatsApp"
+                                            href="https://wa.me/551195548865?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es."><i
+                                                class="fa-brands fa-whatsapp"></i>(11) 95554-8865</a>
+                                    </li>
+                                </ul>
+                                <h3>E-MAIL</h3>
+                                <ul>
+                                    <li>
+                                        <a title="Clique aqui para enviar um e-mail"
+                                            href="mailto:contato@engenhariated.com"><i
+                                                class="fa-solid fa-envelope"></i>contato@engenhariated.com</a>
+                                    </li>
+                                </ul>
+                                <h3>ENDEREÇO</h3>
+                                <ul>
+                                    <li><a target="_blank" title="Clique aqui para ver o endereço"
+                                            href="https://maps.app.goo.gl/t64ykXLeggysKKH7A"><i
+                                                class="fa-solid fa-location-dot"></i> Rua do
+                                            Paraíso, 595, CONJ. 82 - Paraíso - São Paulo, SP</a></li>
+                                    <iframe title="Google Maps"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.836520427682!2d-46.637424599999996!3d-23.5743142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce596e11f7ee37%3A0xb6f8e0c49f5f729d!2sR.%20do%20Para%C3%ADso%2C%20595%20-%20Para%C3%ADso%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004103-001!5e0!3m2!1spt-BR!2sbr!4v1750013281507!5m2!1spt-BR!2sbr"
+                                        width="100%" height="400" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="whats-button">
+        <a title="Clique aqui para entrar em contato via WhatsApp"
+            href="https://wa.me/551195548865?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es."><img
+                loading="lazy" src="./images/logo-wpp.webp" alt="WhatsApp"
+                title="Clique aqui para entrar em contato via WhatsApp"></a>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="content-footer">
+                <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-footer">
+                        <a href="index.html" title="Clique aqui para voltar ao início"><img class="img-responsive"
+                                loading="lazy" src="./images/logo-2-branco.webp" alt="Logo"
+                                title="Clique aqui para voltar ao início"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 list-1">
+                    <h3>INSTITUCIONAL</h3>
+                    <ul>
+                        <li>
+                            <a title="Clique aqui para ser direcionado a página INÍCIO" href="index.html"><i
+                                    class="fa-solid fa-chevron-right"></i>INÍCIO</a>
+                        </li>
+                        <li>
+                            <a title="Clique aqui para ser direcionado a página QUEM SOMOS" href="index.html"><i
+                                    class="fa-solid fa-chevron-right"></i>QUEM SOMOS</a>
+                        </li>
+                        <li>
+                            <a title="Clique aqui para ser direcionado a página ÁREAS DE ATUAÇÃO" href="index.html"><i
+                                    class="fa-solid fa-chevron-right"></i>ÁREAS DE ATUAÇÃO</a>
+                        </li>
+                        <li>
+                            <a title="Clique aqui para ser direcionado a página SOU FORNECEDOR"
+                                href="supplier-contact.html"><i class="fa-solid fa-chevron-right"></i>SOU FORNECEDOR</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 list-1">
+                    <h3>CONTATO</h3>
+                    <ul>
+                        <li>
+                            <a title="Clique aqui para entrar em contato via WhatsApp"
+                                href="https://wa.me/5511955548865?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es."><i
+                                    class="fa-brands fa-whatsapp"></i>(11) 95554-8865</a>
+                        </li>
+                        <li>
+                            <a title="Clique aqui para fazer uma ligação" href="tel:11955548865"><i
+                                    class="fa-solid fa-phone"></i>(11)
+                                95554-8865</a>
+                        </li>
+                        <li>
+                            <a title="Clique aqui para enviar um e-mail" href="mailto:contato@engenhariated.com"><i
+                                    class="fa-solid fa-envelope"></i>contato@engenhariated.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 list-1">
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li>
+                            <a title="Clique aqui para acessar o Instagram"
+                                href="https://www.instagram.com/ted_engenharia.arquitetura?igsh=dnYwdWs3aHlzY2Vw"><i
+                                    class="fa-brands fa-instagram"></i>@ted_engenharia.arquitetura</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="dev">
+                <a target="_blank" title="Clique aqui para acessar o instagram da FuniUx Company"
+                    href="https://www.instagram.com/funiuxcompany/"><i class="fa-brands fa-instagram"></i>Desenvolvido
+                    por FuniUx
+                    Company</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script>
+        document.getElementById("formEmpresa").addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            const formData = Object.fromEntries(new FormData(e.target));
+
+            const response = await fetch("http://localhost:3000/send-supplier", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData),
+            });
+
+            const result = await response.json();
+
+            Toastify({
+                text: result.message,
+                duration: 4000,
+                gravity: "top",
+                position: "right",
+                backgroundColor: result.success ? "green" : "red",
+            }).showToast();
+        });
+    </script>
+
+</body>
+
+</html>
