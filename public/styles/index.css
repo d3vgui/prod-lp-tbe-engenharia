@@ -191,13 +191,16 @@
 }
 
 #section-purpose .card .text{
-  height: 340px;
-  display: flex;
-  align-items: center;
+  height: 450px;
+}
+
+#section-purpose .card .text p{
+  font-size: 14px;
 }
 
 #section-purpose .card .text li{
   font-size: 14px;
+  margin-top: 5px;
 }
 
 /* SECTION THREE */
@@ -205,9 +208,8 @@
 #section-three {
   padding: 80px 0;
   background-image: url(/images/img-2.webp);
-  background-color: #0000009d;
+  background-color: #00000083;
   background-blend-mode: color;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
