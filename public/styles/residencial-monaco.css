@@ -57,6 +57,6 @@
 }
 
 #section-two .right-content p{
-    font-weight: bold;
+    text-align: justify;
     margin: 10px 0;
 }

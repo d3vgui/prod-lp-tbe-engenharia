@@ -96,6 +96,7 @@
 
 #section-two .left-content p {
   margin-top: 20px;
+  text-align: justify;
 }
 
 #section-two .btn-know-more {
@@ -183,7 +184,7 @@
 
 #section-purpose .card:hover {
   transform: translateY(-20px);
-  background-color: #eeeeee;
+  background-color: var(--second-color);
 }
 
 #section-purpose .card:hover::after {
@@ -603,16 +604,38 @@
 #section-testimonials .card {
   width: 560px;
   height: auto;
-  background-color: #e9e9e9;
+  background-color: #f0f0f0;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: 0.4s ease;
+  transition: 0.7s ease;
+  border-radius: 10px;
+  border-top: 6px solid var(--first-color);
+  box-shadow: #00000059 7px 7px 15px;
+  position: relative;
+  overflow: hidden;
 }
 
-#section-testimonials .card:hover{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+#section-testimonials .card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: var(--first-color);
+  transform: translateX(-101%);
+  transition: transform 0.7s ease-in-out;
+}
+
+#section-testimonials .card:hover {
+  transform: translateY(-20px);
+  background-color: var(--second-color);
+}
+
+#section-testimonials .card:hover::after {
+  transform: translateX(0);
 }
 
 #section-testimonials .card .name {
